@@ -25,6 +25,7 @@ nav {
     padding: 12px;
     border-radius: 10px;
     border-bottom: white 3px solid;
+    border-top: white 3px solid;
 }
 
 .left-header-container,
@@ -84,6 +85,11 @@ nav {
     background-color: rgb(128, 0, 0);
     transform: scale(1.05);
     color: white;
+}
+
+.nav-login:active {
+    background-color: rgb(96, 0, 0);
+    transform: scale(0.95);
 }
 
 hr {
