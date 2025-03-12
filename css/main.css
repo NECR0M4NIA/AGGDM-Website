@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #000000;
+}
+
+.hidden {
+    display: none;
+}
+
+/* PAGES */
+
+/* HEADER */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px;
+    padding: 12px;
+    border-radius: 10px;
+    border-bottom: white 3px solid;
+}
+
+.left-header-container,
+.right-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-container {
+    width: 87px;
+    margin-right: 14px;
+}
+
+.vertical-hr {
+    height: 6px;
+    border-left: 3px solid white;
+    margin: 0 12px;
+}
+
+.nav-links,
+.nav-register {
+    margin: 0 12px;
+    color: white;
+    transition: all 150ms ease-out;
+    font-family: "Lexend";
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-links:hover,
+.nav-register:hover {
+    color: rgb(255, 0, 0);
+    transform: scale(1.05);
+}
+
+.nav-login {
+    font-family: "Lexend";
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 18px;
+    border-radius: 8px;
+    transition: 100ms ease-out;
+    text-decoration: none;
+}
+
+.nav-login:hover {
+    background-color: rgb(128, 0, 0);
+    transform: scale(1.05);
+    color: white;
+}
+
+hr {
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: auto;
+    width: 12%;
+}
+
+h1 {
+    font-family: "Lexend";
+    text-align: center;
+    font-size: 56px;
+    color: white;
+    font-weight: 800;
+    margin: 182px 0;
+}
+
+/* KEYFRAMES */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* MAIN SECTION */
+
+.main-logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
