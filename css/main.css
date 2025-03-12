@@ -57,7 +57,14 @@ nav {
 .nav-links:hover,
 .nav-register:hover {
     color: rgb(255, 0, 0);
+    text-shadow: 0 0 14px rgb(255, 0, 0, 0.65);
     transform: scale(1.05);
+}
+
+.nav-links:active,
+.nav-register:active {
+    color: rgb(96, 0, 0);
+    transform: scale(0.95);
 }
 
 .nav-login {
@@ -70,6 +77,7 @@ nav {
     border-radius: 8px;
     transition: 100ms ease-out;
     text-decoration: none;
+    text-shadow: 1px 1px 0 black;
 }
 
 .nav-login:hover {
